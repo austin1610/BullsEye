@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     @IBOutlet var slider: UISlider!
     @IBOutlet var targetLabel: UILabel!
     
-    var currentValue: Int = 50
+    var currentValue = 0
     var targetValue = 0
     var score = 0
     
