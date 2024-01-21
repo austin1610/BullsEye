@@ -40,6 +40,8 @@ class ViewController: UIViewController {
         
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+        
+        startNewRound()
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
