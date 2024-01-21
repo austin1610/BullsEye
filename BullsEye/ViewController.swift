@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
-        var difference = abs(targetValue - currentValue)
+        let difference = abs(targetValue - currentValue)
         
         let points = 100 - difference
         
