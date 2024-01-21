@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     func updateLabels() {
      targetLabel.text = String(targetValue)
+     scoreLabel.text = String(score)
     }
 
     override func viewDidLoad() {
