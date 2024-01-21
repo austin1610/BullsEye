@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         updateLabels()
     }
     
-    func startNewGame() {
+    @IBAction func startNewGame() {
         score = 0
         round = 0
         startNewRound()
