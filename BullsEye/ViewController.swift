@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet var slider: UISlider!
+    
     var currentValue: Int = 1
 
     override func viewDidLoad() {
