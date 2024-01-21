@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var currentValue: Int = 0
+    var currentValue: Int = 1
 
     override func viewDidLoad() {
         super.viewDidLoad()
