@@ -26,10 +26,16 @@ class ViewController: UIViewController {
         updateLabels()
     }
     
+    func startNewGame() {
+        score = 0
+        round = 0
+        startNewRound()
+    }
+    
     func updateLabels() {
-     targetLabel.text = String(targetValue)
-     scoreLabel.text = String(score)
-     roundLabel.text = String(round)
+        targetLabel.text = String(targetValue)
+        scoreLabel.text = String(score)
+        roundLabel.text = String(round)
     }
 
     override func viewDidLoad() {
