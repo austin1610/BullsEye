@@ -21,8 +21,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        currentValue = lroundf(slider.value)
-        targetValue = Int.random(in: 1...100)
+        startNewRound()
     }
     
     @IBAction func showAlert() {
