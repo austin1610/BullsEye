@@ -13,6 +13,7 @@
 		264E38872B5CC0AF0095CBE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E38852B5CC0AF0095CBE3 /* Main.storyboard */; };
 		264E38892B5CC0B40095CBE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264E38882B5CC0B40095CBE3 /* Assets.xcassets */; };
 		264E388C2B5CC0B40095CBE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264E388A2B5CC0B40095CBE3 /* LaunchScreen.storyboard */; };
+		26FE7E272B5DD6280048748B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FE7E262B5DD6280048748B /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		264E38882B5CC0B40095CBE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		264E388B2B5CC0B40095CBE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		264E388D2B5CC0B40095CBE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FE7E262B5DD6280048748B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				264E38812B5CC0AF0095CBE3 /* SceneDelegate.swift */,
 				264E38832B5CC0AF0095CBE3 /* ViewController.swift */,
 				264E38852B5CC0AF0095CBE3 /* Main.storyboard */,
+				26FE7E262B5DD6280048748B /* AboutViewController.swift */,
 				264E38882B5CC0B40095CBE3 /* Assets.xcassets */,
 				264E388A2B5CC0B40095CBE3 /* LaunchScreen.storyboard */,
 				264E388D2B5CC0B40095CBE3 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				264E38842B5CC0AF0095CBE3 /* ViewController.swift in Sources */,
 				264E38802B5CC0AF0095CBE3 /* AppDelegate.swift in Sources */,
+				26FE7E272B5DD6280048748B /* AboutViewController.swift in Sources */,
 				264E38822B5CC0AF0095CBE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58BGV76QMW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 58BGV76QMW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
