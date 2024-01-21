@@ -105,12 +105,12 @@
                     </view>
                     <connections>
                         <outlet property="slider" destination="mwC-85-EyG" id="ela-Lz-Jrt"/>
-                        <outlet property="targetLabel" destination="iMS-ke-IJ4" id="dQ4-S0-w54"/>
+                        <outlet property="targetLabel" destination="sqe-fA-jHg" id="4u6-NJ-7eT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="32.833583208395808" y="-28"/>
+            <point key="canvasLocation" x="-38" y="-26"/>
         </scene>
     </scenes>
     <resources>
