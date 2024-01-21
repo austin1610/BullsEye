@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet var slider: UISlider!
+    @IBOutlet var targetLabel: UILabel!
     
     var currentValue: Int = 50
     var targetValue = 0
