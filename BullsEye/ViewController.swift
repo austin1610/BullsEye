@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         currentValue = 50
         slider.value = Float(currentValue)
     }
+    
+    func updateLabels() {
+     targetLabel.text = String(targetValue)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
