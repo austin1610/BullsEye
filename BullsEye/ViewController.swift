@@ -11,10 +11,12 @@ class ViewController: UIViewController {
     @IBOutlet var slider: UISlider!
     @IBOutlet var targetLabel: UILabel!
     @IBOutlet var scoreLabel: UILabel!
+    @IBOutlet var roundLabel: UILabel!
     
     var currentValue = 0
     var targetValue = 0
     var score = 0
+    var round = 0
     
     func startNewRound() {
         targetValue = Int.random(in: 1...100)
