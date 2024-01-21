@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     var currentValue: Int = 50
     var targetValue = 0
+    var score = 0
     
     func startNewRound() {
         targetValue = Int.random(in: 1...100)
@@ -33,9 +34,9 @@ class ViewController: UIViewController {
     @IBAction func showAlert() {
         var difference = abs(targetValue - currentValue)
         
-        let message = "The value of the slider is: \(currentValue)" +
-                      "\nThe target value is: \(targetValue)" +
-                      "\nThe difference is: \(difference)"
+        let points = 100 - difference
+        
+        let message = "You scored \(points) points"
         
         let alert = UIAlertController(
             title: "Hello, World",
