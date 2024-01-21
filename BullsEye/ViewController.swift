@@ -12,6 +12,12 @@ class ViewController: UIViewController {
     
     var currentValue: Int = 50
     var targetValue = 0
+    
+    func startNewRound() {
+        targetValue = Int.random(in: 1...100)
+        currentValue = 50
+        slider.value = Float(currentValue)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
