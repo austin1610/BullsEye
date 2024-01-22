@@ -193,6 +193,9 @@
                         <viewLayoutGuide key="safeArea" id="l4f-nB-O7n"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="XGs-0K-mKq" id="L38-jo-MLE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mFl-P5-F8F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
